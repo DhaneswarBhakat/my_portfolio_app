@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:my_portfolio_app/skills.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -119,7 +121,9 @@ class Home extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.black,
                 )),
-            SizedBox(height: 150),
+            //SizedBox(height: 150),
+            SizedBox(height: 20),
+
             Text(
               "Created By Dhaneswar",
               style: TextStyle(
